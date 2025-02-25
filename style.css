@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.container {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 10%;
+}
+
+textarea {
+    height: 200px;
+    width: 300px;
+    border: 2px solid gold;
+    border-radius: 5%;
+}
